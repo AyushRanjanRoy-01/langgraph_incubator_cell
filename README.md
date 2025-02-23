@@ -67,5 +67,4 @@ To use the **Gradio App**:
   ```python
   import os
   os.environ["OPENAI_API_KEY"] = "your-api-key-here"
-  ```python
   os.environ["TAVILY_API_KEY"] = "your-api-key-here"
