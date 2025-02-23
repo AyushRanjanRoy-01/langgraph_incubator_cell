@@ -63,7 +63,9 @@ To use the **Gradio App**:
 ---
 
 ### **🔹 Notes**
-- Ensure your OpenAI API key is set before running the notebook:  
+- Ensure your OpenAI and Tavily API key is set before running the notebook:  
   ```python
   import os
   os.environ["OPENAI_API_KEY"] = "your-api-key-here"
+  ```python
+  os.environ["TAVILY_API_KEY"] = "your-api-key-here"
